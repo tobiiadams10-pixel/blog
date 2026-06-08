@@ -8,9 +8,22 @@
     
 </head>
 <body>
- 
+  
     <header>
+      <nav>
+    <div class="nav-container">
+      <button class="hamburguesa" >☰</button>
+      <ul  class="nav-links">
+        <li><a href="blog.html">Inicio</a></li>
+        <li><a href="test.html">mapamundi</a></li>
+        <li><a href="minijuegos.html">minijuegos</a></li>
+      </ul>
+     
        
+ </nav>
+
+
+      
      <div class="timeline" >
 
     <a href="#sahelanthropus-tchadensis">
@@ -219,9 +232,7 @@
               <h3>Características fisicas</h3>
               <p>Medía aproximadamente entre 1.1 y 1.4 metros de altura y pesaba entre 30 y 45 kilogramos, con los machos siendo considerablemente más grandes que las hembras. Su cerebro era más grande que el de sus predecesores, con un volumen de entre 420 y 500 cc, todavía pequeño comparado con el humano moderno pero notablemente mayor que el de los australopitecos anteriores. Su cara era menos proyectada hacia adelante que la del Australopithecus afarensis, con un perfil más redondeado y rasgos más suaves que algunos científicos describen como más "humanizados". Tenía una dentadura con molares grandes y caninos reducidos, adaptada a una dieta variada y dura. Sus manos eran capaces de movimientos precisos, lo que sugiere una mayor habilidad de manipulación. Era claramente bípedo aunque sus brazos largos indican que todavía pasaba tiempo en los árboles. </p>
                 <h3>Estilo de vida</h3>
-              <p>Medía aproximadamente entre 1.1 y 1.4 metros de altura y pesaba entre 30 y 45 kilogramos, con los machos siendo considerablemente más grandes que las hembras. Su cerebro era más grande que el de sus predecesores, con un volumen de entre 420 y 500 cc, todavía pequeño comparado con el humano moderno pero notablemente mayor que el de los australopitecos anteriores. Su cara era menos proyectada hacia adelante que la del Australopithecus afarensis, con un perfil más redondeado y rasgos más suaves que algunos científicos describen como más "humanizados". Tenía una dentadura con molares grandes y caninos reducidos, adaptada a una dieta variada y dura. Sus manos eran capaces de movimientos precisos, lo que sugiere una mayor habilidad de manipulación. Era claramente bípedo aunque sus brazos largos indican que todavía pasaba tiempo en los árboles. Algunos cientificos lo vinculan con el homo habilis, por eso se cree que es el ancestro directo del genero homo. </p>
-                
-                <a href="#sahelanthropus"> volver a la línea de tiempo</a>
+              <p>Medía aproximadamente entre 1.1 y 1.4 metros de altura y pesaba entre 30 y 45 kilogramos, con los machos siendo considerablemente más grandes que las hembras. Su cerebro era más grande que el de sus predecesores, con un volumen de entre 420 y 500 cc, todavía pequeño comparado con el humano moderno pero notablemente mayor que el de los australopitecos anteriores. Su cara era menos proyectada hacia adelante que la del Australopithecus afarensis, con un perfil más redondeado y rasgos más suaves que algunos científicos describen como más "humanizados". Tenía una dentadura con molares grandes y caninos reducidos, adaptada a una dieta variada y dura. Sus manos eran capaces de movimientos precisos, lo que sugiere una mayor habilidad de manipulación. Era claramente bípedo aunque sus brazos largos indican que todavía pasaba tiempo en los árboles. Algunos cientificos lo vinculan con el homo habilis, por eso se cree que es el ancestro directo del genero homo. </p> <br><a href="#sahelanthropus"> volver a la línea de tiempo</a>
         </div>
         <div class="foto derecha">  
         <img src="img/taung.webp" width="400" style="height: 600px;"> 
@@ -229,7 +240,19 @@
         </div>
                     
             </section>
-            
+
+            <section>
+              <div class="mapa-container">
+              <img class="mapa" src="img/mapa.png">
+            </div>
+            </section>
+         
             
 
     <footer></footer>
+    <script src="blog.js">
+      document.getElementById('menu-btn').addEventListener('click', () => {
+    document.getElementById('nav-menu').classList.toggle('activo');
+  });
+
+    </script>
